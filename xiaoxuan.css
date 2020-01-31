@@ -5,9 +5,17 @@ body {
     margin-right: 150px;
     margin-bottom: 50px;
   }
+
+#btitle { 
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   
   h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: coves;
+    font-weight: 2000;
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 20px;
@@ -15,7 +23,7 @@ body {
   }
   
   nav {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: coves;
     color: rgb(0, 0, 0);
     text-align: left;
     font-size: 10px;
@@ -25,10 +33,10 @@ body {
 
  nav :hover {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(109, 14, 117);
+    color: rgb(17, 117, 14);
     text-align: left;
     font-size: 10px;
-    
+    letter-spacing: 3px
   }
 
 a {
@@ -36,17 +44,32 @@ a {
     color: black;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 #bannerimage {
-    padding-left: 155px;
-    padding-right: 155px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
   p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
-    color: rgb(255, 255, 255);
-    text-align: center;
+    font-family: coves;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-top: 75px;
+    padding-left: 100px;
   }
+
+#mainsection {
+    font-family: coves;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    line-height: 15px;
+    padding-top: 10px;
+    padding-left: 100px;
+
+}
