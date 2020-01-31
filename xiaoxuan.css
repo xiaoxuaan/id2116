@@ -15,6 +15,7 @@ body {
   
   h1 {
     font-family: coves;
+    
     font-weight: 2000;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -71,5 +72,9 @@ a {
     line-height: 15px;
     padding-top: 10px;
     padding-left: 100px;
+}
 
+#productimage {
+    padding-left: 350px;
+    padding-top: -200px;
 }
